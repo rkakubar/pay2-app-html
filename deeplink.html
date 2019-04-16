@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>DeepLink確認</title>
+	</head>
+	<body>
+		<a href="paypay://">アプリ起動</a><br>
+		<a href="paypay://signin">ログインの表示</a><br>
+		<a href="paypay://signup">新規登録の表示</a><br>
+		<a href="paypay://embed?url=https://yahoo.co.jp">WebViewの表示(アクションなし)</a><br>
+		<a href="paypay://embed?url=https://yahoo.co.jp&cta_text=%e3%83%81%e3%83%a3%e3%83%bc%e3%82%b8%e3%81%99%e3%82%8b&cta_deeplink=paypay://wallet/topup">WebViewの表示(アクションあり)</a><br>
+		<a href="paypay://map">地図の表示</a><br>
+		<a href="paypay://scan">スキャンの表示</a><br>
+		<a href="paypay://statement">ユーザー明細の表示</a><br>
+		<a href="paypay://information">お知らせの表示</a><br>
+		<a href="paypay://splitbill">割り勘一覧の表示</a><br>
+		<a href="paypay://paymentdetail?orderid=hogehoge&type=type">決済完了の表示</a><br>
+		<a href="paypay://user/addcreditcard">クレジットカード番号入力の表示</a><br>
+		<a href="paypay://user/transactionhistory">お支払い履歴の表示</a><br>
+		<a href="paypay://user/linkedinstruments">お支払い方法管理の表示</a><br>
+		<a href="paypay://user/linkedinstruments#add_bank">お支払い方法管理の表示（銀行登録シートあり）</a><br>
+		<a href="paypay://user/linkedinstruments#add_credit_card">お支払い方法管理の表示（クレジットカード登録シートあり）</a><br>
+		<a href="paypay://user/walletpassbook">残高履歴の表示</a><br>
+		<a href="paypay://user/showcode">支払いバーコードの表示</a><br>
+		<a href="paypay://user/editprofile">プロフィール詳細の表示</a><br>
+		<a href="paypay://wallet/topup">チャージの表示(金額なし)</a><br>
+		<a href="paypay://wallet/topup?amount=3333">チャージの表示(金額3333円指定)</a><br>
+		<a href="paypay://pending/detail?link_key=hogehoge">P2P詳細の表示</a><br>
+	</body>
+</html>
